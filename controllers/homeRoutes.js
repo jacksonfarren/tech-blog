@@ -35,3 +35,5 @@ router.get("/signup", (req, res) => {
     res.render("signup", { logged_in: req.session.logged_in });
     return;
 });
+
+module.exports = router;
